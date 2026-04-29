@@ -92,7 +92,8 @@ const Index = () => {
               Luche Louw<span className="text-gradient">.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Data scientist building reliable machine learning systems — from messy data to models that ship and stay healthy in production.
+              Entry-level data and analytics trainee currently completing a Data Science Practitioner learnership, combining study with real-world application. Skilled in data handling, basic analysis, and reporting, with experience in admin, customer service, and CRM systems. Building practical skills in Python, statistics, and data visualisation.
+
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-3">
