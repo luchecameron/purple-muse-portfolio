@@ -252,7 +252,7 @@ const Index = () => {
         </section>
 
         <footer className="mt-20 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Your Name — Crafted with intent.
+          © {new Date().getFullYear()} L.Louw.
         </footer>
       </div>
     </main>
