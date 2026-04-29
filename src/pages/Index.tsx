@@ -232,7 +232,7 @@ const Index = () => {
                   <p className="text-sm font-medium text-foreground">/in/yourname</p>
                 </div>
               </a>
-              <a href="https://github.com" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
+              <a href="https://www.linkedin.com/in/luchelouw/" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-primary transition-transform group-hover:scale-110">
                   <Github className="h-4 w-4" />
                 </span>
