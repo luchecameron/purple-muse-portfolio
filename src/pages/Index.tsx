@@ -92,7 +92,7 @@ const Index = () => {
               Available for new opportunities
             </div>
             <h1 className="font-display text-5xl font-light leading-[1.05] tracking-tight text-foreground md:text-7xl">
-              Your Name<span className="text-gradient">.</span>
+              Luche Louw<span className="text-gradient">.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
               Data scientist building reliable machine learning systems — from messy data to models that ship and stay healthy in production.
