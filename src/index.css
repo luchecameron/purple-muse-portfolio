@@ -33,9 +33,14 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 270 20% 90%;
+    --input: 270 20% 90%;
+    --ring: 265 60% 45%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(265 60% 45%), hsl(285 70% 60%));
+    --gradient-subtle: radial-gradient(ellipse at top, hsl(270 60% 95%), hsl(270 30% 99%));
+    --shadow-glow: 0 20px 60px -20px hsl(265 60% 45% / 0.25);
+    --shadow-card: 0 1px 3px hsl(270 20% 12% / 0.04), 0 8px 24px -8px hsl(265 60% 45% / 0.08);
 
     --radius: 0.5rem;
 
@@ -102,5 +107,18 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv01";
   }
 }
+
+@layer utilities {
+  .bg-gradient-primary { background: var(--gradient-primary); }
+  .bg-gradient-subtle { background: var(--gradient-subtle); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
