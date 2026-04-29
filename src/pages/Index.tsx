@@ -229,7 +229,7 @@ const Index = () => {
                 </span>
                 <div>
                   <p className="text-xs text-muted-foreground">LinkedIn</p>
-                  <p className="text-sm font-medium text-foreground">/in/yourname</p>
+                  <p className="text-sm font-medium text-foreground">Luchè Cameron Louw</p>
                 </div>
               </a>
               <a href="https://www.linkedin.com/in/luchelouw/" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
