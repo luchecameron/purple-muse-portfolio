@@ -39,20 +39,17 @@ const projects = [
 const skillGroups = [
   {
     label: "Languages",
-    items: ["Python", "R", "SQL", "TypeScript"],
+    items: ["Python"],
   },
   {
-    label: "ML & Modeling",
-    items: ["scikit-learn", "PyTorch", "TensorFlow", "XGBoost", "Hugging Face"],
+    label: "Libraries",
+    items: ["scikit-learn", "TensorFlow", "Numpy", "Pandas" ,  ],
   },
   {
     label: "Data & Cloud",
     items: ["Spark", "Airflow", "dbt", "AWS", "GCP", "Snowflake"],
   },
-  {
-    label: "MLOps",
-    items: ["MLflow", "Docker", "FastAPI", "CI/CD", "Weights & Biases"],
-  },
+ 
 ];
 
 const contactSchema = z.object({
@@ -178,7 +175,7 @@ const Index = () => {
                   id="name"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  placeholder="Ada Lovelace"
+                  placeholder="Full Name"
                   maxLength={100}
                 />
               </div>
@@ -189,7 +186,7 @@ const Index = () => {
                   type="email"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  placeholder="you@company.com"
+                  placeholder="your@company.com"
                   maxLength={255}
                 />
               </div>
@@ -199,7 +196,7 @@ const Index = () => {
                   id="message"
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  placeholder="Tell me about your project…"
+                  placeholder="Tell me about the opportunity…"
                   rows={5}
                   maxLength={1000}
                 />
