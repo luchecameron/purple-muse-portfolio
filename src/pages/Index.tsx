@@ -214,16 +214,16 @@ const Index = () => {
             </form>
 
             <div className="grid gap-4 content-start">
-              <a href="mailto:hello@yourname.com" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
+              <a href="mailto:luchecameron17@gmail.com" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-primary transition-transform group-hover:scale-110">
                   <Mail className="h-4 w-4" />
                 </span>
                 <div>
                   <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="text-sm font-medium text-foreground">hello@yourname.com</p>
+                  <p className="text-sm font-medium text-foreground">luchecameron17@gmail.com</p>
                 </div>
               </a>
-              <a href="https://linkedin.com" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
+              <a href="https://www.linkedin.com/in/luchelouw/" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-primary transition-transform group-hover:scale-110">
                   <Linkedin className="h-4 w-4" />
                 </span>
@@ -232,13 +232,13 @@ const Index = () => {
                   <p className="text-sm font-medium text-foreground">Luchè Cameron Louw</p>
                 </div>
               </a>
-              <a href="https://www.linkedin.com/in/luchelouw/" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
+              <a href="https://github.com/luchecameron/luchecameron" className="group flex items-center gap-4 rounded-xl border border-border bg-background p-5 transition-all hover:border-primary/40 hover:shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-primary transition-transform group-hover:scale-110">
                   <Github className="h-4 w-4" />
                 </span>
                 <div>
                   <p className="text-xs text-muted-foreground">GitHub</p>
-                  <p className="text-sm font-medium text-foreground">@yourname</p>
+                  <p className="text-sm font-medium text-foreground">luchecameron</p>
                 </div>
               </a>
               <div className="flex items-center gap-4 rounded-xl border border-border bg-background p-5">
@@ -247,7 +247,7 @@ const Index = () => {
                 </span>
                 <div>
                   <p className="text-xs text-muted-foreground">Based in</p>
-                  <p className="text-sm font-medium text-foreground">Remote · Worldwide</p>
+                  <p className="text-sm font-medium text-foreground">Remote · South Africa</p>
                 </div>
               </div>
             </div>
