@@ -43,13 +43,20 @@ const skillGroups = [
   },
   {
     label: "Libraries",
-    items: ["scikit-learn", "TensorFlow", "Numpy", "Pandas" ,  ],
+    items: ["scikit-learn", "TensorFlow", "Numpy", "Pandas"],
   },
   {
-    label: "Data & Cloud",
-    items: ["Spark", "Airflow", "dbt", "AWS", "GCP", "Snowflake"],
+    label: "Data & Analytics",
+    items: ["SQL", "Python for Data Science", "Power BI"],
   },
- 
+  {
+    label: "Tools & Technologies",
+    items: ["Spyder IDE / Jupyter Notebook", "Microsoft Office", "Salesforce CRM", "Jira"],
+  },
+  {
+    label: "Business & Digital Skills",
+    items: ["Customer Service", "Sales", "Canva", "WordPress"],
+  },
 ];
 
 const contactSchema = z.object({
