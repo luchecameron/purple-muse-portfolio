@@ -59,7 +59,7 @@ const skillGroups = [
   },
   {
     label: "Tools & Technologies",
-    items: ["Spyder IDE / Jupyter Notebook", "Microsoft Office", "Salesforce CRM", "Jira" , GitHub],
+    items: ["Spyder IDE / Jupyter Notebook", "Microsoft Office", "Salesforce CRM", "Jira", "GitHub"],
   },
   {
     label: "Business & Digital Skills",
