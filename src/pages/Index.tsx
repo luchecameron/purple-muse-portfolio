@@ -13,33 +13,33 @@ const projects = [
   {
     title: "Customer Churn Prediction",
     description:
-      "Gradient boosting model identifying at-risk customers with 92% recall, deployed as a real-time API serving 50k requests/day.",
-    tags: ["XGBoost", "Python", "FastAPI"],
+      "This project focuses on analysing customer behaviour and predicting churn using transactional, demographic, and feedback data. The goal is to help the business identify at-risk customers and enable targeted retention strategies through data-driven insights and machine learning.",
+    tags: ["Machine Learning", "Python", "Jupyter Notebook"],
      link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
 
   },
   {
-    title: "NLP Topic Discovery",
+    title: "Stimulated Lewis Goup Project",
     description:
-      "Unsupervised pipeline using BERTopic over 1M support tickets — surfaced 30+ actionable themes for product teams.",
-    tags: ["BERTopic", "Transformers", "PyTorch"],
+      "Collaborated as part of Team SLG on a simulated retail project within the Data Science Occupational course, focusing on predictive analytics and generating actionable business insights.Presented data-driven insights and recommendations to The Lewis Stores following the completion of the project.",
+    tags: ["Jira", "Python", "Machiine Learning"],
      link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
 
   },
   {
-    title: "Forecasting Demand at Scale",
+    title: "Super Store Analysis",
     description:
-      "Hierarchical time-series forecasting across 5,000 SKUs reducing inventory costs by 18% in production.",
-    tags: ["Prophet", "Spark", "MLflow"],
-     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+      "The goal of this project is to analyze sales performance for a retail superstore and identify revenue drivers, regional performance, customer segment value, and product-level insights to support data-driven decision making.",
+    tags: ["Python", "Spyder IDE", "GitHub"],
+     link: "https://github.com/luchecameron/Data-Analytics-Project-Tasks",
 
   },
   {
     title: "Retail Sales Analysis",
     description:
       "This project explores the shopping habits of customers across major malls in Istanbul. Using a synthetic dataset (istanbul_sales_data.csv), I performed data cleaning, exploratory data analysis (EDA), visualization, and basic insights to understand retail trends and customer behavior.",
-    tags: ["Word", "Python\n", "Bayesian"],
-     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+    tags: ["Pandas", "Matplotlib", "Seaborn"],
+     link: "https://github.com/luchecameron/Istanbul-Retail-Sales-Analysis",
 
   },
 ];
@@ -47,19 +47,19 @@ const projects = [
 const skillGroups = [
   {
     label: "Languages",
-    items: ["Python"],
+    items: ["Python" , "SQL"], 
   },
   {
     label: "Libraries",
-    items: ["scikit-learn", "TensorFlow", "Numpy", "Pandas"],
+    items: ["scikit-learn", "Numpy", "Pandas"],
   },
   {
     label: "Data & Analytics",
-    items: ["SQL", "Python for Data Science", "Power BI"],
+    items: [ "Python for Data Science", "Power BI"],
   },
   {
     label: "Tools & Technologies",
-    items: ["Spyder IDE / Jupyter Notebook", "Microsoft Office", "Salesforce CRM", "Jira"],
+    items: ["Spyder IDE / Jupyter Notebook", "Microsoft Office", "Salesforce CRM", "Jira" , GitHub],
   },
   {
     label: "Business & Digital Skills",
