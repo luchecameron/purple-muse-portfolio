@@ -32,7 +32,7 @@ const projects = [
     title: "Retail Sales Analysis",
     description:
       "This project explores the shopping habits of customers across major malls in Istanbul. Using a synthetic dataset (istanbul_sales_data.csv), I performed data cleaning, exploratory data analysis (EDA), visualization, and basic insights to understand retail trends and customer behavior.",
-    tags: ["Word", "CSV", "Bayesian"],
+    tags: ["Word", "Python\n", "Bayesian"],
   },
 ];
 
