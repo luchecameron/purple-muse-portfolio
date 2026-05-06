@@ -22,7 +22,7 @@ const projects = [
     title: "Stimulated Lewis Goup Project",
     description:
       "Collaborated as part of Team SLG on a simulated retail project within the Data Science Occupational course, focusing on predictive analytics and generating actionable business insights.Presented data-driven insights and recommendations to The Lewis Stores following the completion of the project.",
-    tags: ["Jira", "Python", "Machiine Learning"],
+    tags: ["Jira", "Python", "Machine Learning"],
      link: "https://github.com/GSamuels5/Data-Science_Practical_Project",
 
   },
