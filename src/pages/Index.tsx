@@ -29,10 +29,10 @@ const projects = [
     tags: ["Prophet", "Spark", "MLflow"],
   },
   {
-    title: "The Lewis Group Project",
+    title: "Retail Sales Analysis",
     description:
-      "This project focuses on analysing customer behaviour and predicting churn using transactional, demographic, and feedback data. The goal is to help the business identify at-risk customers and enable targeted retention strategies through data-driven insights and machine learning.",
-    tags: ["Scikit-learn", "R", "Bayesian"],
+      "This project explores the shopping habits of customers across major malls in Istanbul. Using a synthetic dataset (istanbul_sales_data.csv), I performed data cleaning, exploratory data analysis (EDA), visualization, and basic insights to understand retail trends and customer behavior.",
+    tags: ["Word", "R", "Bayesian"],
   },
 ];
 
