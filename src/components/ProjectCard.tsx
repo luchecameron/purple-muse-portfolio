@@ -12,6 +12,8 @@ const ProjectCard = ({ index, title, description, tags, link = "#" }: ProjectCar
   return (
     <a
       href={link}
+      target="_blank"
+       rel="noopener noreferrer"
       className="group relative block rounded-2xl border border-border bg-card p-8 shadow-card transition-all duration-500 hover:-translate-y-2 hover:border-primary/40 hover:shadow-glow animate-fade-up"
       style={{ animationDelay: `${index * 120}ms` }}
     >
