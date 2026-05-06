@@ -15,24 +15,32 @@ const projects = [
     description:
       "Gradient boosting model identifying at-risk customers with 92% recall, deployed as a real-time API serving 50k requests/day.",
     tags: ["XGBoost", "Python", "FastAPI"],
+     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+
   },
   {
     title: "NLP Topic Discovery",
     description:
       "Unsupervised pipeline using BERTopic over 1M support tickets — surfaced 30+ actionable themes for product teams.",
     tags: ["BERTopic", "Transformers", "PyTorch"],
+     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+
   },
   {
     title: "Forecasting Demand at Scale",
     description:
       "Hierarchical time-series forecasting across 5,000 SKUs reducing inventory costs by 18% in production.",
     tags: ["Prophet", "Spark", "MLflow"],
+     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+
   },
   {
     title: "Retail Sales Analysis",
     description:
       "This project explores the shopping habits of customers across major malls in Istanbul. Using a synthetic dataset (istanbul_sales_data.csv), I performed data cleaning, exploratory data analysis (EDA), visualization, and basic insights to understand retail trends and customer behavior.",
     tags: ["Word", "Python\n", "Bayesian"],
+     link: "https://github.com/luchecameron/Customer-Churn-Prediction-Insight-Analysis.git",
+
   },
 ];
 
