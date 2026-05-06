@@ -90,7 +90,7 @@ const Index = () => {
     }
     const subject = encodeURIComponent(`Portfolio inquiry from ${result.data.name}`);
     const body = encodeURIComponent(`${result.data.message}\n\n— ${result.data.name} (${result.data.email})`);
-    window.location.href = `mailto:hello@yourname.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:luchecameron17@gmail.com?subject=${subject}&body=${body}`;
     toast({ title: "Opening your email client…" });
   };
 
