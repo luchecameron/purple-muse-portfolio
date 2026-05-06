@@ -27,7 +27,7 @@ const ProjectCard = ({ index, title, description, tags, link = "#" }: ProjectCar
         <p className="text-sm leading-relaxed text-muted-foreground">{description}</p>
         <div className="mt-2 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <span key={tag} className="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-foreground">
+            <span key={tag} className="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-foreground border-2">
               {tag}
             </span>
           ))}

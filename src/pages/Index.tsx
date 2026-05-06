@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import ProjectCard from "@/components/ProjectCard";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/new-portrait.jpg";
 
 const projects = [
   {
@@ -29,10 +29,10 @@ const projects = [
     tags: ["Prophet", "Spark", "MLflow"],
   },
   {
-    title: "Causal Uplift Modeling",
+    title: "The Lewis Group Project",
     description:
-      "A/B-tested uplift trees to personalize marketing spend, lifting campaign ROI by 24% over baseline.",
-    tags: ["CausalML", "R", "Bayesian"],
+      "This project focuses on analysing customer behaviour and predicting churn using transactional, demographic, and feedback data. The goal is to help the business identify at-risk customers and enable targeted retention strategies through data-driven insights and machine learning.",
+    tags: ["Scikit-learn", "R", "Bayesian"],
   },
 ];
 
@@ -147,7 +147,7 @@ const Index = () => {
                   {group.items.map((item) => (
                     <span
                       key={item}
-                      className="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-foreground"
+                      className="rounded-full bg-accent px-3 py-1 text-xs font-medium text-accent-foreground border-2"
                     >
                       {item}
                     </span>
